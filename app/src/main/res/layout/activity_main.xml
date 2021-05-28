@@ -175,7 +175,26 @@
             app:layout_constraintBottom_toTopOf="@+id/add"
             app:layout_constraintEnd_toEndOf="parent" />
 
+        <Button
+            android:id="@+id/del"
+            android:layout_width="89dp"
+            android:layout_height="73dp"
+            android:layout_gravity="center"
+            android:text="del"
+            app:layout_constraintBottom_toTopOf="@+id/num8"
+            app:layout_constraintStart_toStartOf="parent" />
 
+        <Button
+            android:id="@+id/clear"
+            android:layout_width="89dp"
+            android:layout_height="73dp"
+            android:layout_gravity="center"
+            android:text="clear"
+
+            app:layout_constraintBottom_toTopOf="@+id/num7"
+            app:layout_constraintStart_toEndOf="@+id/del"
+            app:layout_constraintTop_toBottomOf="@+id/text_view_id"
+            app:layout_constraintVertical_bias="1.0" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 
